@@ -9,7 +9,7 @@ It is a python2 docker with dlib, opencv and matlibplot
 
 Suppose your project folder is `/path/to/project`
 
-Use this command to run an interactive shell and your local project folder mounted as `/project` inside the image file system:
+Use this command to run an interactive shell with your local project folder mounted as `/project` inside the image file system:
 
 `docker run -ti -v /path/to/project:/project --name py2docker python2docker:latest sh`
 
